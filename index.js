@@ -64,7 +64,7 @@ function start(client) {
       .catch((erro) => {
         console.error('Error when sending: ', erro); //return object error
       });
-  }, 300000)
+  }, 10000)
 }
 
 
