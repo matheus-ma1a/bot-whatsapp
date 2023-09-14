@@ -89,13 +89,13 @@ function start(client) {
       tempoInicialGlobal = tempoInicial
 
       client.sendText(canal, `
-🚨 Falta ${numero} minutos para ativar o nosso HACK DENTRO DA CASA! 🚨
+🚨 Falta ${numero} minutos para ativar o nosso *HACK DENTRO DA CASA!*  🚨
   
 Como você está? Preparado para ganhar uma grana daqui 8 minutos? Já estou ansioso para jogarmos todos juntos 🔥
       
-⏰ Horário da Sessão: ${tempoInicial} ÀS ${tempoFinal}
+⏰ Horário da Sessão: *${tempoInicial} ÀS ${tempoFinal}*
       
-Enquanto aguardamos o sinal, aproveitem para realizar o cadastro na plataforma onde descobrimos esse HACK DENTRO DA CASA.
+Enquanto aguardamos o sinal, aproveitem para realizar o cadastro na plataforma onde descobrimos esse *HACK DENTRO DA CASA* .
       
 📲 CLIQUE AQUI PARA SE REGISTRAR: bit.ly/registroflybet
   `)
