@@ -89,15 +89,15 @@ function start(client) {
       tempoInicialGlobal = tempoInicial
 
       client.sendText(canal, `
-      🚨 Falta ${numero} minutos para ativar o nosso HACK DENTRO DA CASA! 🚨
+🚨 Falta ${numero} minutos para ativar o nosso HACK DENTRO DA CASA! 🚨
   
-      Como você está? Preparado para ganhar uma grana daqui 8 minutos? Já estou ansioso para jogarmos todos juntos ☄️
+Como você está? Preparado para ganhar uma grana daqui 8 minutos? Já estou ansioso para jogarmos todos juntos 🔥
       
-      ⏰ Horário da Sessão: ${tempoInicial} ÀS ${tempoFinal}
+⏰ Horário da Sessão: ${tempoInicial} ÀS ${tempoFinal}
       
-      Enquanto aguardamos o sinal, aproveitem para realizar o cadastro na plataforma onde descobrimos esse HACK DENTRO DA CASA.
+Enquanto aguardamos o sinal, aproveitem para realizar o cadastro na plataforma onde descobrimos esse HACK DENTRO DA CASA.
       
-      ✍️ CLIQUE AQUI PARA SE REGISTRAR: bit.ly/registroflybet
+📲 CLIQUE AQUI PARA SE REGISTRAR: bit.ly/registroflybet
   `)
       primeiraMsg(tempoInicial, tempoFinal, numero)
     }, 12000)
@@ -109,27 +109,27 @@ function start(client) {
 
       client.sendText(canal, `
   
-  ✅ ENTRADA CONFIRMADA ✅
+✅ ENTRADA CONFIRMADA ✅
+
+🐯 FORTUNE TIGER ☘
+
+⚠ Válido das ${tempoInicial} ÁS ${tempoFinal}
+
+ESTRATÉGIA 👇🏻
   
-  🐯 FORTUNE TIGER ☘
-  
-  ⚠ Válido das ${tempoInicial} ÁS ${tempoFinal}
-  
-  ESTRATÉGIA 👇🏻
-   
-  📊Estratégia que vamos usar:
-  30x R$0,40 [NORMAL]
-  10x R$0,80 [TURBO]
-  10x R$2,00 [AUTÓMATICO]
-  
-  
-  🎁 CADASTRE-SE E GANHE ATÉ 200% DE BÔNUS NESSA PLATAFORMA.
-  https://bit.ly/registroflybet
-  
-  📱 Jogar Fortune Tiger 🐯
-  https://bit.ly/registroflybet
-  
-  ⚠ SINAL SÓ FUNCIONA NA PLATAFORMA ACIMA!
+📊Estratégia que vamos usar:
+30x R$0,40 [NORMAL]
+10x R$0,80 [TURBO]
+10x R$2,00 [AUTÓMATICO]
+
+
+🎁 CADASTRE-SE E GANHE ATÉ 200% DE BÔNUS NESSA PLATAFORMA.
+https://bit.ly/registroflybet
+
+📱 Jogar Fortune Tiger 🐯
+https://bit.ly/registroflybet
+
+⚠ SINAL SÓ FUNCIONA NA PLATAFORMA ACIMA!
   
   `,)
     }, tempo * 60000)
@@ -142,22 +142,22 @@ function start(client) {
 
       client.sendText(
         canal, `
+
+🐯✅ GREEN NO FORTUNE TIGER ✅🐯
+
+RESULTADOS	
+      
+
+⏰ ${adicionarMinutos(tempoInicialGlobal, 5)}	✅💸 MEGA GANHO
+⏰ ${adicionarMinutos(tempoInicialGlobal, 8)}	✅💸 GREEN
+⏰ ${adicionarMinutos(tempoInicialGlobal, 10)}	✅💸 GREEN
+⏰ ${adicionarMinutos(tempoInicialGlobal, 7)}	✅💸 GREEN
         
-            🐯✅ GREEN NO FORTUNE TIGER ✅🐯
-          
-            RESULTADOS	
-                 
-        
-            ⏰ ${adicionarMinutos(tempoInicialGlobal, 5)}	✅💸 MEGA GANHO
-            ⏰ ${adicionarMinutos(tempoInicialGlobal, 8)}	✅💸 GREEN
-            ⏰ ${adicionarMinutos(tempoInicialGlobal, 10)}	✅💸 GREEN
-            ⏰ ${adicionarMinutos(tempoInicialGlobal, 7)}	✅💸 GREEN
-                   
-            🚨⚠ SESSÃO FINALIZADA ⚠🚨		 
-                 
-            AGUARDE A PRÓXIMA SESSÃO E ME ENVIEM OS SEUS GANHOS NO PRIVADO 💥🥇		 
-                  
-            📲 CLIQUE AQUI PARA CADASTRAR : https://bit.ly/registroflybet
+🚨⚠ SESSÃO FINALIZADA ⚠🚨		 
+      
+AGUARDE A PRÓXIMA SESSÃO E ME ENVIEM OS SEUS GANHOS NO PRIVADO 💥🥇		 
+      
+📲 CLIQUE AQUI PARA CADASTRAR : https://bit.ly/registroflybet
         
         `)
       presinal()
