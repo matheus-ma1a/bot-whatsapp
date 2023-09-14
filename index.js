@@ -10,20 +10,23 @@ venom
   });
 
 function start(client) {
-  client.onMessage((message) => {
-    if (message.body == 'Oi') {
-      client
-        .sendText(message.from, 'Welcome Venom 🕷')
-        .then((result) => {
-          console.log('Result: ', result); //return object success
-        })
-        .catch((erro) => {
-          console.error('Error when sending: ', erro); //return object error
-        });
-    }
-  });
+  // client.onMessage((message) => {
+  //   if (message.body == 'Oi') {
+  //     client
+  //       .sendText(message.from, 'Welcome Venom 🕷')
+  //       .then((result) => {
+  //         console.log('Result: ', result); //return object success
+  //       })
+  //       .catch((erro) => {
+  //         console.error('Error when sending: ', erro); //return object error
+  //       });
+  //   }
+  // });
 
   const canal = '120363170812036979@g.us'
+
+  let tempoFinalGlobal = ''
+  let tempoInicialGlobal = ''
 
   function obterHoraAtualEAcrescentarMinutos(minutosParaAcrescentar) {
     const dataAtual = new Date();
