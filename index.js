@@ -45,29 +45,56 @@ function start(client) {
     return numeroFinal;
   }
 
+  // function adicionarMinutos(horaOriginal, minutosParaAdicionar) {
+  //   const partesDaHora = horaOriginal.split(":");
+
+  //   if (partesDaHora.length !== 2) {
+  //     // Certifique-se de que a string de entrada está no formato correto
+  //     return "Formato de hora inválido. Use o formato 'hh:mm'.";
+  //   }
+
+  //   const horas = parseInt(partesDaHora[0], 10);
+  //   const minutos = parseInt(partesDaHora[1], 10);
+
+  //   if (isNaN(horas) || isNaN(minutos)) {
+  //     // Certifique-se de que as horas e minutos sejam números válidos
+  //     return "Formato de hora inválido. Use o formato 'hh:mm'.";
+  //   }
+
+  //   // Adicione os minutos fornecidos à hora original
+  //   const novaHora = new Date(0, 0, 0, horas, minutos + minutosParaAdicionar);
+
+  //   const novaHoraFormatada = novaHora.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+  //   return novaHoraFormatada;
+  // }
+
   function adicionarMinutos(horaOriginal, minutosParaAdicionar) {
     const partesDaHora = horaOriginal.split(":");
-
+  
     if (partesDaHora.length !== 2) {
       // Certifique-se de que a string de entrada está no formato correto
       return "Formato de hora inválido. Use o formato 'hh:mm'.";
     }
-
+  
     const horas = parseInt(partesDaHora[0], 10);
     const minutos = parseInt(partesDaHora[1], 10);
-
+  
     if (isNaN(horas) || isNaN(minutos)) {
       // Certifique-se de que as horas e minutos sejam números válidos
       return "Formato de hora inválido. Use o formato 'hh:mm'.";
     }
-
+  
     // Adicione os minutos fornecidos à hora original
     const novaHora = new Date(0, 0, 0, horas, minutos + minutosParaAdicionar);
-
-    const novaHoraFormatada = novaHora.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-
-    return novaHoraFormatada;
+  
+    // Formate a nova hora manualmente no formato 'hh:mm'
+    const horasFormatadas = String(novaHora.getHours()).padStart(2, '0');
+    const minutosFormatados = String(novaHora.getMinutes()).padStart(2, '0');
+  
+    return `${horasFormatadas}:${minutosFormatados}`;
   }
+  
 
   function horaMinutos2() {
     const expiryTime = 3; // tempo de expiração em minutos
